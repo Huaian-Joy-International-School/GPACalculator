@@ -42,6 +42,9 @@ def main():
     )
     make_dir(this_release_dir)
 
+    # 主程序
+    shutil.copy(jar_path, os.path.join(this_release_dir, f'{release_id}.jar'))
+
     # Windows
     win_release_dir = os.path.join(this_release_dir, f'{release_id}_win')
     win_release_path = os.path.join(this_release_dir, f'{release_id}_win.zip')
