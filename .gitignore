@@ -1,0 +1,9 @@
+# IDEA
+/.idea/
+/GPACalculator.iml
+
+# release
+/release/
+
+# maven
+/target/
