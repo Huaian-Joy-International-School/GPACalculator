@@ -4,7 +4,7 @@ import zipfile
 
 RELEASE_DIR = 'release'
 OUTPUT_DIR = 'target'
-JAVA_NAME = 'jdk-16.0.1'
+JAVA_NAME = 'jdk-17.0.2'
 JAVA_DIR = os.path.join(RELEASE_DIR, JAVA_NAME)
 
 
@@ -57,7 +57,7 @@ def main():
     # 生成启动脚本
     with open(os.path.join(win_release_dir, 'RunMe.bat'), 'w') as f:
         content = '@echo off\n'
-        content += rf'jdk-16.0.1\bin\java.exe -jar {release_id}.jar'
+        content += rf'{JAVA_NAME}\bin\java.exe -jar {release_id}.jar'
         f.write(content)
     # 压缩
     with zipfile.ZipFile(win_release_path, 'w') as z:
