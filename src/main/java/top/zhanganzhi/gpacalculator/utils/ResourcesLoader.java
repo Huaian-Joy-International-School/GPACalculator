@@ -40,21 +40,8 @@ public class ResourcesLoader {
         return JSON.parseObject(Tool.readFileAsString("letterGradeMap.json"));
     }
 
-    private ArrayList<Subject> loadSubjectListResource() {
-        var subjectJSONArray = JSON.parseArray(Tool.readFileAsString("subjectList.json"));
-        var subjectListResource = new ArrayList<Subject>();
-        for (int i = 0; i < subjectJSONArray.size(); i++) {
-            var subjectTypeJSONObject = subjectJSONArray.getJSONObject(i);
-            for (int j = 0; j < subjectTypeJSONObject.getJSONArray("list").size(); j++) {
-                var subjectJSONObject = subjectTypeJSONObject.getJSONArray("list").getJSONObject(j);
-                subjectListResource.add(new Subject(
-                        subjectTypeJSONObject.getString("type"),
-                        subjectJSONObject.getString("name"),
-                        subjectJSONObject.getDouble("credit")
-                ));
-            }
-        }
-        return subjectListResource;
+    private JSONObject loadSubjectListResource() {
+        return JSON.parseObject(Tool.readFileAsString("subjectList.json"));
     }
 
     public ApplicationProperties getApplicationProperties() {

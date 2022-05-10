@@ -1,219 +1,446 @@
-[
-  {
-    "type": "English",
-    "list": [
-      {
-        "name": "ESL 201",
-        "credit": 0.5
-      },
-      {
-        "name": "ESL 301",
-        "credit": 0.5
-      },
-      {
-        "name": "ESL 401",
-        "credit": 0.5
-      },
-      {
-        "name": "English Language Arts",
-        "credit": 0.5
-      },
-      {
-        "name": "Literary Genre",
-        "credit": 0.5
-      },
-      {
-        "name": "English Language and Composition",
-        "credit": 0.5
-      }
-    ]
+{
+  "2020-2021": {
+    "Semester 11": [],
+    "Semester 21": []
   },
-  {
-    "type": "Social Studies",
-    "list": [
+  "2021-2022": {
+    "Semester 1": [
       {
-        "name": "Reader Theater",
-        "credit": 0.5
+        "type": "Mathematics",
+        "list": [
+          {
+            "name": "Geometry",
+            "credit": 0.5
+          },
+          {
+            "name": "Algebra 1",
+            "credit": 0.5
+          },
+          {
+            "name": "Algebra 2/Adv. Math",
+            "credit": 0.5
+          },
+          {
+            "name": "Precalculus",
+            "credit": 0.5
+          },
+          {
+            "name": "AP Calculus",
+            "credit": 0.5
+          }
+        ]
       },
       {
-        "name": "ESL Social Studies",
-        "credit": 0.5
+        "type": "English",
+        "list": [
+          {
+            "name": "ESL 201",
+            "credit": 0.5
+          },
+          {
+            "name": "ESL 301",
+            "credit": 0.5
+          },
+          {
+            "name": "ESL 401",
+            "credit": 0.5
+          },
+          {
+            "name": "English Language Arts",
+            "credit": 0.5
+          },
+          {
+            "name": "Literary Genre",
+            "credit": 0.5
+          },
+          {
+            "name": "English Language and Composition",
+            "credit": 0.5
+          }
+        ]
       },
       {
-        "name": "ESL Humanities",
-        "credit": 0.5
+        "type": "Science",
+        "list": [
+          {
+            "name": "ESL Science",
+            "credit": 0.5
+          },
+          {
+            "name": "Life Science",
+            "credit": 0.5
+          },
+          {
+            "name": "Physics",
+            "credit": 0.5
+          },
+          {
+            "name": "Chemistry",
+            "credit": 0.5
+          },
+          {
+            "name": "AP Physics",
+            "credit": 0.5
+          }
+        ]
       },
       {
-        "name": "ESL Global Studies B",
-        "credit": 0.5
+        "type": "Social Studies",
+        "list": [
+          {
+            "name": "Reader Theater",
+            "credit": 0.5
+          },
+          {
+            "name": "ESL Social Studies",
+            "credit": 0.5
+          },
+          {
+            "name": "ESL Humanities",
+            "credit": 0.5
+          },
+          {
+            "name": "ESL Global Studies B",
+            "credit": 0.5
+          },
+          {
+            "name": "Humanities",
+            "credit": 0.5
+          },
+          {
+            "name": "Global Studies B",
+            "credit": 0.5
+          }
+        ]
       },
       {
-        "name": "Humanities",
-        "credit": 0.5
+        "type": "P.E.",
+        "list": [
+          {
+            "name": "class 1",
+            "credit": 0.25
+          },
+          {
+            "name": "class 2",
+            "credit": 0.25
+          },
+          {
+            "name": "class 3",
+            "credit": 0.25
+          }
+        ]
       },
       {
-        "name": "Global Studies B",
-        "credit": 0.5
+        "type": "Chinese",
+        "list": [
+          {
+            "name": "Chinese 9/10 class 1",
+            "credit": 0.25
+          },
+          {
+            "name": "Chinese 9/10 class 2",
+            "credit": 0.25
+          },
+          {
+            "name": "Chinese 11/12 class 1",
+            "credit": 0.25
+          },
+          {
+            "name": "Chinese 11/12 class 2",
+            "credit": 0.25
+          }
+        ]
+      },
+      {
+        "type": "Elective",
+        "list": [
+          {
+            "name": "Drama",
+            "credit": 0.25
+          },
+          {
+            "name": "Journalism",
+            "credit": 0.25
+          },
+          {
+            "name": "Current Affairs",
+            "credit": 0.25
+          },
+          {
+            "name": "Introduction to Speech",
+            "credit": 0.25
+          },
+          {
+            "name": "Speech and Debate",
+            "credit": 0.25
+          }
+        ]
+      },
+      {
+        "type": "Art",
+        "list": [
+          {
+            "name": "Introduction to Painting",
+            "credit": 0.25
+          },
+          {
+            "name": "Introduction to Digital Art",
+            "credit": 0.25
+          },
+          {
+            "name": "Foundations of Art",
+            "credit": 0.25
+          },
+          {
+            "name": "Classical Art",
+            "credit": 0.25
+          },
+          {
+            "name": "Dance",
+            "credit": 0.25
+          },
+          {
+            "name": "Choir",
+            "credit": 0.25
+          }
+        ]
+      },
+      {
+        "type": "Computer",
+        "list": [
+          {
+            "name": "Introduction to Comp. Sci. Class 1",
+            "credit": 0.25
+          },
+          {
+            "name": "Introduction to Comp. Sci. Class 2",
+            "credit": 0.25
+          },
+          {
+            "name": "AP Computer",
+            "credit": 0.5
+          }
+        ]
       }
-    ]
-  },
-  {
-    "type": "Science",
-    "list": [
+    ],
+    "Semester 2": [
       {
-        "name": "ESL Science",
-        "credit": 0.5
+        "type": "Mathematics",
+        "list": [
+          {
+            "name": "Geometry",
+            "credit": 0.5
+          },
+          {
+            "name": "Algebra 1",
+            "credit": 0.5
+          },
+          {
+            "name": "Algebra 2/Adv. Math",
+            "credit": 0.5
+          },
+          {
+            "name": "Precalculus",
+            "credit": 0.5
+          },
+          {
+            "name": "AP Calculus",
+            "credit": 0.5
+          }
+        ]
       },
       {
-        "name": "Life Science",
-        "credit": 0.5
+        "type": "English",
+        "list": [
+          {
+            "name": "ESL 201",
+            "credit": 0.5
+          },
+          {
+            "name": "ESL 301",
+            "credit": 0.5
+          },
+          {
+            "name": "ESL 401",
+            "credit": 0.5
+          },
+          {
+            "name": "English Language Arts",
+            "credit": 0.5
+          },
+          {
+            "name": "Literary Genre",
+            "credit": 0.5
+          },
+          {
+            "name": "English Language and Composition",
+            "credit": 0.5
+          }
+        ]
       },
       {
-        "name": "Physics",
-        "credit": 0.5
+        "type": "Science",
+        "list": [
+          {
+            "name": "ESL Science",
+            "credit": 0.5
+          },
+          {
+            "name": "Life Science",
+            "credit": 0.5
+          },
+          {
+            "name": "Physics",
+            "credit": 0.5
+          },
+          {
+            "name": "Chemistry",
+            "credit": 0.5
+          },
+          {
+            "name": "AP Physics",
+            "credit": 0.5
+          }
+        ]
       },
       {
-        "name": "Chemistry",
-        "credit": 0.5
+        "type": "Social Studies",
+        "list": [
+          {
+            "name": "Reader Theater",
+            "credit": 0.5
+          },
+          {
+            "name": "ESL Social Studies",
+            "credit": 0.5
+          },
+          {
+            "name": "ESL Humanities",
+            "credit": 0.5
+          },
+          {
+            "name": "ESL Global Studies B",
+            "credit": 0.5
+          },
+          {
+            "name": "Humanities",
+            "credit": 0.5
+          },
+          {
+            "name": "Global Studies B",
+            "credit": 0.5
+          }
+        ]
       },
       {
-        "name": "AP Physics",
-        "credit": 0.5
-      }
-    ]
-  },
-  {
-    "type": "Math",
-    "list": [
-      {
-        "name": "Geometry",
-        "credit": 0.5
+        "type": "P.E.",
+        "list": [
+          {
+            "name": "class 1",
+            "credit": 0.25
+          },
+          {
+            "name": "class 2",
+            "credit": 0.25
+          },
+          {
+            "name": "class 3",
+            "credit": 0.25
+          }
+        ]
       },
       {
-        "name": "Algebra 1",
-        "credit": 0.5
+        "type": "Chinese",
+        "list": [
+          {
+            "name": "Chinese 9/10 class 1",
+            "credit": 0.25
+          },
+          {
+            "name": "Chinese 9/10 class 2",
+            "credit": 0.25
+          },
+          {
+            "name": "Chinese 11/12 class 1",
+            "credit": 0.25
+          },
+          {
+            "name": "Chinese 11/12 class 2",
+            "credit": 0.25
+          }
+        ]
       },
       {
-        "name": "Algebra 2/Adv. Math",
-        "credit": 0.5
+        "type": "Elective",
+        "list": [
+          {
+            "name": "Drama",
+            "credit": 0.25
+          },
+          {
+            "name": "Journalism",
+            "credit": 0.25
+          },
+          {
+            "name": "Current Affairs",
+            "credit": 0.25
+          },
+          {
+            "name": "Introduction to Speech",
+            "credit": 0.25
+          },
+          {
+            "name": "Speech and Debate",
+            "credit": 0.25
+          }
+        ]
       },
       {
-        "name": "Precalculus",
-        "credit": 0.5
+        "type": "Art",
+        "list": [
+          {
+            "name": "Introduction to Painting",
+            "credit": 0.25
+          },
+          {
+            "name": "Introduction to Digital Art",
+            "credit": 0.25
+          },
+          {
+            "name": "Foundations of Art",
+            "credit": 0.25
+          },
+          {
+            "name": "Classical Art",
+            "credit": 0.25
+          },
+          {
+            "name": "Dance",
+            "credit": 0.25
+          },
+          {
+            "name": "Choir",
+            "credit": 0.25
+          }
+        ]
       },
       {
-        "name": "AP Calculus",
-        "credit": 0.5
-      }
-    ]
-  },
-  {
-    "type": "Chinese",
-    "list": [
-      {
-        "name": "Chinese 9/10 class 1",
-        "credit": 0.25
-      },
-      {
-        "name": "Chinese 9/10 class 2",
-        "credit": 0.25
-      },
-      {
-        "name": "Chinese 11/12 class 1",
-        "credit": 0.25
-      },
-      {
-        "name": "Chinese 11/12 class 2",
-        "credit": 0.25
-      }
-    ]
-  },
-  {
-    "type": "Computer",
-    "list": [
-      {
-        "name": "Introduction to Comp. Sci. Class 1",
-        "credit": 0.25
-      },
-      {
-        "name": "Introduction to Comp. Sci. Class 2",
-        "credit": 0.25
-      },
-      {
-        "name": "AP Computer",
-        "credit": 0.5
-      }
-    ]
-  },
-  {
-    "type": "Art",
-    "list": [
-      {
-        "name": "Introduction to Painting",
-        "credit": 0.25
-      },
-      {
-        "name": "Introduction to Digital Art",
-        "credit": 0.25
-      },
-      {
-        "name": "Foundations of Art",
-        "credit": 0.25
-      },
-      {
-        "name": "Classical Art",
-        "credit": 0.25
-      },
-      {
-        "name": "Dance",
-        "credit": 0.25
-      },
-      {
-        "name": "Choir",
-        "credit": 0.25
-      }
-    ]
-  },
-  {
-    "type": "P.E.",
-    "list": [
-      {
-        "name": "class 1",
-        "credit": 0.25
-      },
-      {
-        "name": "class 2",
-        "credit": 0.25
-      },
-      {
-        "name": "class 3",
-        "credit": 0.25
-      }
-    ]
-  },
-  {
-    "type": "Elective",
-    "list": [
-      {
-        "name": "Drama",
-        "credit": 0.25
-      },
-      {
-        "name": "Journalism",
-        "credit": 0.25
-      },
-      {
-        "name": "Current Affairs",
-        "credit": 0.25
-      },
-      {
-        "name": "Introduction to Speech",
-        "credit": 0.25
-      },
-      {
-        "name": "Speech and Debate",
-        "credit": 0.25
+        "type": "Computer",
+        "list": [
+          {
+            "name": "Introduction to Comp. Sci. Class 1",
+            "credit": 0.25
+          },
+          {
+            "name": "Introduction to Comp. Sci. Class 2",
+            "credit": 0.25
+          },
+          {
+            "name": "AP Computer",
+            "credit": 0.5
+          }
+        ]
       }
     ]
   }
-]
+}
