@@ -13,18 +13,24 @@ public class MainPanel extends JPanel {
     private final JLabel resultGPALabel;
 
     public MainPanel(int width, int height) {
+        // 尺寸和布局
         setPreferredSize(new Dimension(width, height));
         ((FlowLayout) getLayout()).setVgap(0);
-        coursePanel = new CoursePanel(width, 350);
-        buttonPanel = new ButtonPanel(width, 36);
-        resultCreditLabel = new JLabel();
-        resultGPALabel = new JLabel();
-        resultCreditLabel.setPreferredSize(new Dimension(width / 2, 24));
-        resultGPALabel.setPreferredSize(new Dimension(width / 2, 24));
 
+        // 课程面板
+        coursePanel = new CoursePanel(width, 350);
         add(coursePanel);
+
+        // 按钮面板
+        buttonPanel = new ButtonPanel(width, 36);
         add(buttonPanel);
+
+        // 结果
+        resultCreditLabel = new JLabel();
+        resultCreditLabel.setPreferredSize(new Dimension(width / 2, 24));
         add(resultCreditLabel);
+        resultGPALabel = new JLabel();
+        resultGPALabel.setPreferredSize(new Dimension(width / 2, 24));
         add(resultGPALabel);
     }
 

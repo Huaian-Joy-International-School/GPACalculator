@@ -1,9 +1,7 @@
 package top.zhanganzhi.gpacalculator.windows.course;
 
 import top.zhanganzhi.gpacalculator.module.Course;
-import top.zhanganzhi.gpacalculator.utils.LetterGradeMap;
 import top.zhanganzhi.gpacalculator.utils.ResourcesLoader;
-import top.zhanganzhi.gpacalculator.utils.SubjectList;
 import top.zhanganzhi.gpacalculator.utils.Tool;
 
 import javax.swing.*;
